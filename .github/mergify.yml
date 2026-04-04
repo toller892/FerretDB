@@ -1,4 +1,3 @@
----
 # see https://docs.mergify.com/
 
 pull_request_rules:
@@ -61,3 +60,5 @@ pull_request_rules:
     actions:
       label:
         remove: [conflict]
+merge_protections_settings:
+  reporting_method: check-runs
